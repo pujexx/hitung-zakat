@@ -31,6 +31,9 @@ public class zakatmal extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

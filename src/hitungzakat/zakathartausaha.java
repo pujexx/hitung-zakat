@@ -4,20 +4,20 @@
  */
 
 /*
- * about_program.java
+ * zakathartausaha.java
  *
- * Created on Jun 3, 2011, 6:26:18 PM
+ * Created on Jun 8, 2011, 10:23:07 AM
  */
 package hitungzakat;
 
 /**
  *
- * @author poedjex
+ * @author pujexx
  */
-public class about_program extends javax.swing.JInternalFrame {
+public class zakathartausaha extends javax.swing.JInternalFrame {
 
-    /** Creates new form about_program */
-    public about_program() {
+    /** Creates new form zakathartausaha */
+    public zakathartausaha() {
         initComponents();
     }
 
@@ -33,6 +33,7 @@ public class about_program extends javax.swing.JInternalFrame {
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
+        setResizable(true);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -4,20 +4,20 @@
  */
 
 /*
- * about_program.java
+ * nisab.java
  *
- * Created on Jun 3, 2011, 6:26:18 PM
+ * Created on Jun 8, 2011, 10:13:14 AM
  */
 package hitungzakat;
 
 /**
  *
- * @author poedjex
+ * @author pujexx
  */
-public class about_program extends javax.swing.JInternalFrame {
+public class nisab extends javax.swing.JInternalFrame {
 
-    /** Creates new form about_program */
-    public about_program() {
+    /** Creates new form nisab */
+    public nisab() {
         initComponents();
     }
 
@@ -33,6 +33,8 @@ public class about_program extends javax.swing.JInternalFrame {
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
+        setResizable(true);
+        setTitle("Nisab");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
